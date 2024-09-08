@@ -5,9 +5,7 @@ let calculator = {
     multiply : (a,b) => a*b,
     divide : (a,b) => a/b,
 };
-let addResult = function calculator(a,b)
-calculator.add(10,20);
+let addResult = calculator.add(10,20)
 console.log(addResult);
-let divideResult = function calculator.divide;
-divideResult(3000,10);
+let divideResult = calculator.divide(3000,10);
 console.log(divideResult);
